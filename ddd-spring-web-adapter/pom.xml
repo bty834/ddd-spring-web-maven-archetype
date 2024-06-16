@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>ddd-spring-web-adapter</artifactId>
+
+    <parent>
+        <groupId>io.github.bty834</groupId>
+        <artifactId>ddd-spring-web</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <name>ddd-spring-web-adapter</name>
+    <description>ddd-spring-web-adapter</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.github.bty834</groupId>
+            <artifactId>ddd-spring-web-infrastructure</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
