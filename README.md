@@ -2,7 +2,6 @@
 # Quick Start
 
 ```bash
-# make sure there's setting.xml file in dir ~/.m2/ 
 mvn archetype:create-from-project
 
 cd target/generated-sources/archetype

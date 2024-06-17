@@ -1,4 +1,4 @@
 /**
- * server implements client , can be feign http or dubbo rpc implementation
+ * client sdk implementations
  */
 package io.github.bty834.server;
