@@ -46,7 +46,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>io.github.bty834.server.ServerApplication</mainClass>
+                    <mainClass>${groupId}.server.ServerApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

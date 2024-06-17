@@ -11,6 +11,7 @@ mvn archetype:crawl
 
 # go to your project dir
 mvn archetype:generate -DarchetypeCatalog=local
+# select the ddd-spring-web-archetype 
 ```
 
 # Layers
