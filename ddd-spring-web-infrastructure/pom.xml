@@ -6,7 +6,8 @@
     <parent>
         <groupId>io.github.bty834</groupId>
         <artifactId>ddd-spring-web</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <name>ddd-spring-web-infrastrcture</name>
     <description>ddd-spring-web-infrastrcture</description>

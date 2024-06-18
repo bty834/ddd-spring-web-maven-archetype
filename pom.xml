@@ -4,11 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.bty834</groupId>
     <artifactId>ddd-spring-web</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${revision}</version>
     <name>ddd-spring-web</name>
     <packaging>pom</packaging>
     <description>ddd-spring-web</description>
     <properties>
+        <revision>0.0.1-SNAPSHOT</revision>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -75,42 +76,42 @@
             <dependency>
                 <groupId>io.github.bty834</groupId>
                 <artifactId>ddd-spring-web-infrastructure</artifactId>
-                <version>${project.version}</version>
+                <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.bty834</groupId>
                 <artifactId>ddd-spring-web-app</artifactId>
-                <version>${project.version}</version>
+                <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.bty834</groupId>
                 <artifactId>ddd-spring-web-controller</artifactId>
-                <version>${project.version}</version>
+                <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.bty834</groupId>
                 <artifactId>ddd-spring-web-server</artifactId>
-                <version>${project.version}</version>
+                <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.bty834</groupId>
                 <artifactId>ddd-spring-web-job</artifactId>
-                <version>${project.version}</version>
+                <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.bty834</groupId>
                 <artifactId>ddd-spring-web-adapter</artifactId>
-                <version>${project.version}</version>
+                <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.bty834</groupId>
                 <artifactId>ddd-spring-web-domain</artifactId>
-                <version>${project.version}</version>
+                <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.bty834</groupId>
                 <artifactId>ddd-spring-web-client</artifactId>
-                <version>${project.version}</version>
+                <version>${revision}</version>
             </dependency>
 
 
